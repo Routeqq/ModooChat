@@ -9,21 +9,19 @@
     width: 2000px;
     height: 600px;
     background-image: url(tiitle.jpg);
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: red
-    background-color: #ff0000
-    
+    background-size: 50% 20%;
+    background-repeat: no-repeat;   
     "></div></a>
-    <p>
-<form>
-
-          ID     : <input type = "text"><br>
-          Passwd : <input type = "text>
-
+    <form>
+*아이디 : <input type = "text"><br>
+비밀번호 : <input type = "text><br>
+<button type = "button" onclick="alert('회원가입을 꼭 해주세요')">로그인</button>
+<a href="signup.html">
+<button type = "button" onclick="alert('회원가입 페이지로 이동합니다')">회원가입</button>
+</a>
 </form>
-<br>
 
+   
     <div id="disqus_thread"></div>
   <script>
 
@@ -36,6 +34,7 @@
   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
   };
   */
+  
   (function() { // DON'T EDIT BELOW THIS LINE
   var d = document, s = d.createElement('script');
   s.src = 'https://moodoochat.disqus.com/embed.js';
@@ -44,5 +43,6 @@
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 </body>
 </html>
